@@ -201,7 +201,7 @@ button {
 }
 
 .layout_padding {
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 0px;
 }
 
@@ -233,7 +233,7 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0px 20px;
     font-size: 17px;
-    color: #fefefd;
+    color: #ff0000;
     margin: 0px 5px;
 }
 
@@ -344,7 +344,7 @@ button {
     background-color: #fefefd;
     height: auto;
     background-size: 100%;
-    padding: 0px 0px 90px 0px;
+    padding: 0px 0px 30px 0px;
 }
 
 .banner_taital_main {
@@ -418,7 +418,7 @@ button {
     top: 100px;
     left: -120px;
     color: #fcf8f8;
-    background-color: #b0d122;
+    background-color: #ffc107;
 }
 
 #banner_slider .carousel-control-next,
@@ -436,7 +436,7 @@ button {
 #banner_slider .carousel-control-prev:focus,
 #banner_slider .carousel-control-prev:hover {
     color: #ffffff;
-    background-color: #b0d122;
+    background-color: #ffc107;
 }
 
 /* banner section end */
@@ -449,13 +449,17 @@ button {
     padding: 0px 0px;
     background-color: #ffc107;
     height: auto;
+    
+    
 }
 
 .about_taital_main {
     width: 100%;
     float: left;
     padding-left: 100px;
-    padding-top: 50px;
+    padding-top: 90px;
+    margin-top: -30px;
+   
 }
 
 .about_taital {
@@ -519,7 +523,7 @@ button {
     height: 328px;
     font-size: 40px;
     text-align: center;
-    background-color: #a8cb26;
+    background-color: #ffc107;
     border-radius: 170px;
     color: #ffffff;
     font-weight: bold;
@@ -645,7 +649,7 @@ button {
     color: #fefefd;
     font-size: 18px;
     padding: 20px;
-    background-color: #a8cb26;
+    background-color: #ffc107;
     text-align: center;
     position: absolute;
     top: 0px;
@@ -671,6 +675,7 @@ button {
     width: 170px;
     float: left;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .read_bt1 a {
@@ -727,7 +732,7 @@ button {
 .client_taital_box {
     width: 100%;
     float: left;
-    border: 2px solid #b2d13e;
+    border: 2px solid #ffc107;
     border-radius: 100px;
     height: auto;
     padding: 40px 20px 40px 20px;
@@ -763,7 +768,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #a8cb26;
+    color: #ffc107;
     margin: 0px;
 }
 
@@ -940,7 +945,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .footer_menu li a:hover {
-    color: #a8cb26;
+    color: #ffc107;
 }
 
 .update_mail {
@@ -970,7 +975,7 @@ textarea#comment::placeholder {
 .subscribe_bt a {
     width: 100%;
     float: left;
-    color: #a8cb26;
+    color: #ffc107;
     font-size: 18px;
     padding: 8px 0px;
     font-weight: bold;
@@ -1008,7 +1013,7 @@ textarea#comment::placeholder {
 }
 
 .copyright_text a:hover {
-    color: #a8cb26;
+    color: #ffc107;
 }
 
 
@@ -1120,8 +1125,9 @@ textarea#comment::placeholder {
 .footer_links h4,
 .footer_contact h4 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
     color: #fff;
+    margin-top: 30px;
 }
 
 .footer_links ul {
