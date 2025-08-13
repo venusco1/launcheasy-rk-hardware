@@ -344,13 +344,13 @@ button {
     background-color: #fefefd;
     height: auto;
     background-size: 100%;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 90px 0px;
 }
 
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-top: 30px;
+    padding-top: 90px;
 }
 
 .banner_taital {
@@ -418,7 +418,7 @@ button {
     top: 100px;
     left: -120px;
     color: #fcf8f8;
-    background-color: #ffc107;
+    background-color: #ffb400;
 }
 
 #banner_slider .carousel-control-next,
@@ -436,11 +436,10 @@ button {
 #banner_slider .carousel-control-prev:focus,
 #banner_slider .carousel-control-prev:hover {
     color: #ffffff;
-    background-color: #ffc107;
+    background-color: #ffb400;
 }
 
 /* banner section end */
-
 /* about section start */
 
 .about_section {
@@ -488,7 +487,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px 0px;
     background-color: #272727;
@@ -496,8 +495,8 @@ button {
 }
 
 .readmore_bt a:hover {
-    color: #000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .padding_right0{
@@ -1077,19 +1076,7 @@ textarea#comment::placeholder {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.btn-primary-custom {
-    background: #ff6600;
-    color: white;
-    padding: 10px 25px;
-    font-size: 16px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
 
-.btn-primary-custom:hover {
-    background: #e65c00;
-}
 .footer_section {
     background-color: #222;
     color: #ddd;
@@ -1221,6 +1208,527 @@ textarea#comment::placeholder {
   .header_section .row > div {
     font-size: 14px;
   }
+}
+
+/* Quick Menu Mobile Buttons */
+.quick-btn {
+  background-color: #ffc107;
+  color: black;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+}
+
+.quick-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 120px;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ffc107;
+  color: white;
+}
+.social_icon {
+    padding-left:30px ;
+}
+.social_icons{
+    padding-left: 85px;
+}
+
+.location_icon {
+    margin-left: 130px;
+}
+.number_{
+    margin-left: 90px;
+}
+.product-section {
+  margin-top: 40px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-card h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.buy-btn {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    background: rgb(223, 8, 8); /* Keep original color */
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    margin-top: 12px;
+}
+
+/* Shine effect */
+.buy-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.buy-btn:hover::before {
+    left: 100%;
+}
+
+/* Hover lift */
+.buy-btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+/* Gentle pulse animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+}
+
+.buy-btn {
+    animation: pulse 2.5s infinite;
+}
+
+.navbar {
+    margin-top: -17px;
+    margin-bottom: -10px;
+}
+.
+.readmore_bt a {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, black, #333);
+    color: #ffc107; /* Gold text to stand out */
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
+}
+
+/* Shine effect */
+.readmore_bt a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.readmore_bt a:hover::before {
+    left: 100%;
+}
+
+/* Lift + shadow hover effect */
+.readmore_bt a:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: #ffc107; /* Keeps text gold on hover */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+.readmore_bt a {
+    animation: pulse 2s infinite;
+}
+.color_bt a {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white; /* Keep text visible */
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Shine Effect */
+.color_bt a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.color_bt a:hover::before {
+    left: 100%;
+}
+
+/* Hover Lift Effect */
+.color_bt a:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional pulse animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+.color_bt a {
+    animation: pulse 2.5s infinite;
+}
+/* Same effect for Know More button */
+.read_bt a {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    background: black; /* Your chosen color */
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Shine effect */
+.read_bt a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.read_bt a:hover::before {
+    left: 100%;
+}
+
+/* Hover lift */
+.read_bt a:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Pulse animation */
+.read_bt a {
+    animation: pulse 2.5s infinite;
+}
+/* Get in Touch button style */
+.btn-primary-custom {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    background: black; /* Keep color */
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Shine effect */
+.btn-primary-custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.btn-primary-custom:hover::before {
+    left: 100%;
+}
+
+/* Hover lift */
+.btn-primary-custom:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+}
+
+.btn-primary-custom {
+    animation: pulse 2.5s infinite;
+}
+.footer_p {
+    margin-right: 60px;
+    color: rgb(236, 229, 229);
+}
+/* Common Button Styles */
+.custom-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: visible;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Yellow Button */
+.yellow-btn {
+    background-color: #ffb400;
+    color: black;
+}
+.yellow-btn:hover {
+    background-color: black;
+    color: #ffb400;
+}
+
+/* Black Button */
+.black-btn {
+    background-color: black;
+    color: #ffb400;
+}
+.black-btn:hover {
+    background-color: #ffb400;
+    color: black;
+}
+
+/* Green Button (Buy Now) */
+.green-btn {
+    background-color: #ffb400;
+    color: white;
+}
+.green-btn:hover {
+    background-color: #218838;
+    color: white;
+}
+.banner_section {
+    width: 100%;
+    float: left;
+    background-color: #fefefd;
+    height: auto;
+    background-size: 100%;
+    padding: 0px 0px 90px 0px;
+}
+
+.banner_taital_main {
+    width: 100%;
+    float: left;
+    padding-top: 90px;
+}
+
+.banner_taital {
+    width: 100%;
+    font-size: 50px;
+    color: #171717;
+    font-weight: bold;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.banner_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    color: #403f3f;
+    margin: 20px 0px 0px 0px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+/* Button container */
+.btn_main {
+    display: flex;
+    gap: 10px;
+}
+
+/* Base button styles */
+.contact_bt a {
+    position: relative;
+    display: inline-block;
+    padding: 12px 28px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s ease;
+}
+
+/* Yellow Button (Read More) */
+.contact_bt a {
+    background-color: #ffb400;
+    color: black;
+}
+.contact_bt a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: left 0.4s ease;
+    z-index: -1;
+}
+.contact_bt a:hover::before {
+    left: 0;
+}
+.contact_bt a:hover {
+    color: #ffb400;
+}
+
+/* Black Button (Contact Us) */
+.contact_bt.active a {
+    background-color: black;
+    color: #ffb400;
+}
+.contact_bt.active a::before {
+    background-color: #ffb400;
+}
+.contact_bt.active a:hover {
+    color: black;
+}
+/* Read More Button */
+.readmore_bt a {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    background: black; /* Black background */
+    color: white; /* White text */
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    animation: pulse 2.5s infinite;
+}
+
+/* Shine effect */
+.readmore_bt a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.readmore_bt a:hover::before {
+    left: 100%;
+}
+
+/* Hover lift */
+.readmore_bt a:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(5, 5, 5, 0.3);
+    color: rgb(255, 255, 255); /* Keep text white */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
 }
 
 

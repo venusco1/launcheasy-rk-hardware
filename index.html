@@ -59,83 +59,89 @@
 </head>
 
    <body>
-      
-      <!-- header section start -->
-      <div class="header_section">
-  <div class="container">
+     <!-- header section start -->
+         <div class="header_section">
+         <div class="container">
 
-    <!-- Top Row: Location - Social - Phone -->
-    <div class="row align-items-center py-2 text-center text-md-left">
-      
-      <!-- Location -->
-      <div class="col-12 col-md-4 mb-2 mb-md-0">
-        <div class="call_text">
-          <a href="https://maps.app.goo.gl/5tgvbseApdsD3rB28" target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <span class="padding_left_15">Location</span>
-          </a>
-        </div>
-      </div>
+            <!-- Mobile Quick Menu -->
+            <div class="d-block d-lg-none mobile-quick-menu text-center py-2">
+               <div class="dropdown d-inline-block mx-2">
+               <button class="btn quick-btn" data-toggle="dropdown">
+                  <i class="fa fa-map-marker"></i>
+               </button>
+               <div class="dropdown-menu dropdown-menu-right p-2 text-center">
+                  <a href="https://maps.app.goo.gl/5tgvbseApdsD3rB28" target="_blank">
+                     View Location
+                  </a>
+               </div>
+               </div>
 
-      <!-- Social Icons -->
-      <div class="col-12 col-md-4 mb-2 mb-md-0">
-        <div class="header_social_icon">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/share/1C88T7bhtJ/" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://wa.me/919947409858" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-whatsapp"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/rk_hardware_elkm_?igsh=MWUyNzhhMWhmajVnNQ==" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+               <div class="dropdown d-inline-block mx-2">
+               <button class="btn quick-btn" data-toggle="dropdown">
+                  <i class="fa fa-phone"></i>
+               </button>
+              <div class="dropdown-menu dropdown-menu-right p-2 text-center">
+               <a href="tel:919947409858">+91 9947409858</a>
+               </div>
 
-      <!-- Phone -->
-      <div class="col-12 col-md-4">
-        <div class="call_text">
-          <a href="tel:+919947409858">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <span class="padding_left_15">+91 9947409858</span>
-          </a>
-        </div>
-      </div>
+               </div>
 
-    </div>
+               <div class="dropdown d-inline-block mx-2">
+               <button class="btn quick-btn" data-toggle="dropdown">
+                  <i class="fa fa-share-alt"></i>
+               </button>
+               <div class="dropdown-menu dropdown-menu-right p-2 text-center">
+                  <a href="https://www.facebook.com/share/1C88T7bhtJ/" target="_blank">
+                     <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="https://wa.me/919947409858" target="_blank">
+                     <i class="fa fa-whatsapp"></i>
+                  </a>
+                  <a href="https://www.instagram.com/rk_hardware_elkm_?igsh=MWUyNzhhMWhmajVnNQ==" target="_blank">
+                     <i class="fa fa-instagram"></i>
+                  </a>
+               </div>
+               </div>
+            </div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="index.html" class="navbar-brand font-weight-bold" style="font-size: 30px;">
-        RK HARDWARE
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <!-- Desktop Header -->
+            <div class="row align-items-center py-2 text-center text-md-left d-none d-lg-flex">
+               <div class="col-md-4">
+               <a class="location_icon" href="https://maps.app.goo.gl/5tgvbseApdsD3rB28" target="_blank">
+                  <i class="fa fa-map-marker"></i> Location
+               </a>
+               </div>
+               <div class="social_icons col-md-4">
+               <a class="social_icon" href="https://www.facebook.com/share/1C88T7bhtJ/" target="_blank"><i class="fa fa-facebook"></i></a>
+               <a class="social_icon" href="https://wa.me/919947409858" target="_blank"><i class="fa fa-whatsapp"></i></a>
+               <a class="social_icon" href="https://www.instagram.com/rk_hardware_elkm_?igsh=MWUyNzhhMWhmajVnNQ==" target="_blank"><i class="fa fa-instagram"></i></a>
+               </div>
+               <div class="col-md-4">
+               <a class="number_" href="tel:+919947409858"><i class="fa fa-phone"></i> +91 9947409858</a>
+               </div>
+            </div>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </nav>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a href="index.html" class="navbar-brand font-weight-bold" style="font-size: 30px;">
+               RK HARDWARE
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+               </ul>
+               </div>
+            </nav>
+         </div>
+         </div>
+         <!-- header section end -->
 
-  </div>
-</div>
-
-      <!-- header section end -->
       <!-- banner section start --> 
       <div class="banner_section layout_padding">
          <div class="container">
@@ -159,7 +165,7 @@
                                  <p class="banner_text">We provide high-quality plumbing materials and modern sanitary fittings designed for durability and style. From pipes to bathroom accessories, our products ensure smooth water flow, easy installation, and a reliable, long-lasting performance.</p>
                                  <div class="btn_main">
                                     <div class="contact_bt"><a href="services.html">Read More</a></div>
-                                    <div class="contact_bt active"><a href="contact.html">Contact us</a></div>
+                                    <div class="contact_bt active"><a href="contact.html">Contact Us</a></div>
                                  </div>
                            </div>
                         </div>
@@ -273,33 +279,129 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="blog_taital">Our Products</h1>
+                  <h1 class="blog_taital">Gallery</h1>
                </div>
             </div>
             <div class="choose_section_2">
-               <div class="row">
-                  <div class="col-sm-4">
-                     <div class="blog_img"><img src="images/blog-img.png"></div>
-                     <!-- <h4 class="date_text">01 May</h4> -->
-                     <h4 class="safety_text">How does WordPress blog work</h4>
-                     <p class="ipsum_text">vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                     <div class="read_bt1"><a href="#">Know More</a></div>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="blog_img"><img src="images/blog-img.png"></div>
-                     <!-- <h4 class="date_text">01 May</h4> -->
-                     <h4 class="safety_text">How does WordPress blog work</h4>
-                     <p class="ipsum_text">vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                     <div class="read_bt1"><a href="#">Know More</a></div>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="blog_img"><img src="images/blog-img.png"></div>
-                     <!-- <h4 class="date_text">01 May</h4> -->
-                     <h4 class="safety_text">How does WordPress blog work</h4>
-                     <p class="ipsum_text">vLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                     <div class="read_bt1"><a href="#">Know More</a></div>
-                  </div>
-               </div>
+               <div class="row product-section">
+  
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img1.png" alt="Product 1">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img2.png" alt="Product 2">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                          
+                              
+
+                        </div>
+                     </div>
+
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img3.png" alt="Product 3">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     </div>
+
+
+                     <div class="row product-section">
+  
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img4.png" alt="Product 1">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img5.png" alt="Product 2">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img6.png" alt="Product 3">
+                          
+                          <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     </div>
+
+
+
+
+                      <div class="row product-section">
+  
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img7.png" alt="Product 1">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+
+                        </div>
+                     </div>
+
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img8.png" alt="Product 2">
+                           
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     <!-- Product Card -->
+                     <div class="col-sm-4">
+                        <div class="product-card">
+                           <img src="images/blog-img9.png" alt="Product 3">
+                          
+                           <a href="https://wa.me/919947409858?text=Hi%2C%20RK%20Hardware%3A%0AI%20want%20to%20know%20about%20your%20products.%20Please%20call%20or%20message%20me%20back" 
+                                 target="_blank" class="buy-btn">Buy Now
+                                 </a>
+                        </div>
+                     </div>
+
+                     </div>
+
             </div>
          </div>
       </div>
@@ -368,7 +470,7 @@
                   <!-- Brand & Description -->
                   <div class="col-lg-4 col-md-6 footer_about">
                      <h2 class="footer_logo">RK HARDWARE</h2>
-                     <p class="footer_p">Your trusted local shop for hardware, plumbing, sanitary, electrical, and paint — serving Perinthalmanna with quality products and expert service.</p>
+                     <h5 class="footer_p">Your trusted local shop for hardware, plumbing, sanitary, electrical, and paint — serving Perinthalmanna with quality products and expert service.</h5>
                      <div class="footer_social">
                         <li class="list-inline-item">
                         <a href="https://www.facebook.com/share/1C88T7bhtJ/" target="_blank" rel="noopener noreferrer">
