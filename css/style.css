@@ -344,13 +344,13 @@ button {
     background-color: #fefefd;
     height: auto;
     background-size: 100%;
-    padding: 0px 0px 90px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .banner_taital {
@@ -1212,7 +1212,7 @@ textarea#comment::placeholder {
 
 /* Quick Menu Mobile Buttons */
 .quick-btn {
-  background-color: #ffc107;
+  background-color: #ffffff;
   color: black;
   border-radius: 50%;
   width: 45px;
@@ -1596,13 +1596,13 @@ textarea#comment::placeholder {
     background-color: #fefefd;
     height: auto;
     background-size: 100%;
-    padding: 0px 0px 90px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-top: 90px;
+    /* padding-top: 90px; */
 }
 
 .banner_taital {
@@ -1637,7 +1637,6 @@ textarea#comment::placeholder {
 .contact_bt a {
     position: relative;
     display: inline-block;
-    padding: 12px 28px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 8px;
